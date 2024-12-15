@@ -60,7 +60,7 @@ body {
 }
 
 .nav__list__text {
-    font-size: 18px;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -73,8 +73,9 @@ body {
   color: #fff;
 }
 
-.nav__phone, .nav__mail {
-    font-size: 18px;
+.nav__phone,
+.nav__mail {
+  font-size: 18px;
 }
 
 .main {
@@ -138,6 +139,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .table__block {
@@ -254,16 +256,16 @@ footer {
 }
 
 .footer__block {
-    width: 100%;
-    display: flex;
-    gap: 20px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
 }
 
 .footer__text {
-    margin: 0;
-    margin-top: 10px;
-    text-align: center;
-    color: #fff;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
 }
 
 .nav__list1 {
@@ -288,4 +290,86 @@ footer {
   gap: 20px;
   margin-top: 15px;
   color: #fff;
+}
+
+:root {
+  --black: oklch(17.7% 0.105 262.48);
+  --purple: oklch(60% 0.37 294.7);
+  --orange: oklch(60% 0.37 64.65);
+  --yellow: oklch(60% 0.37 109.08);
+  --blue: oklch(60% 0.37 237.06);
+  --black-alpha-50: color-mix(in oklch, var(--black), transparent);
+}
+
+@property --gradient-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+@keyframes spin {
+  to {
+    --gradient-angle: 360deg;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.gradient {
+  place-content: center;
+}
+
+.gradient__rectangle {
+  animation: spin 2s linear infinite;
+  background: linear-gradient(to bottom, var(--black), var(--black)) padding-box,
+    conic-gradient(
+        in oklch from var(--gradient-angle),
+        var(--purple),
+        var(--orange),
+        var(--yellow),
+        var(--blue),
+        var(--purple)
+      )
+      border-box;
+  border: 5px solid transparent;
+  border-radius: 20px;
+  position: relative;
+  width: 775px;
+  height: 440px;
+  z-index: 10;
+
+  &::before {
+    background: black;
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+  }
+
+  &::after {
+    animation: spin 2s linear infinite;
+    background: conic-gradient(
+      in oklch from var(--gradient-angle),
+      var(--purple),
+      var(--orange),
+      var(--yellow),
+      var(--blue),
+      var(--purple)
+    );
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    inset: 0;
+    filter: blur(50px);
+    z-index: 1;
+  }
+}
+
+video {
+  border-radius: 20px;
+  position: relative;
+  z-index: 11;
 }
