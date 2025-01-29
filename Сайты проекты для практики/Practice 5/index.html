@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Вход -->
+    <div class="logo">
+      <p class="name_logo">Your Logo</p>
+      <div class="global_container">
+        <img class="photo1" src="img/Saly-3.png" alt="" />
+        <div id="dialog" class="dialog_visible">
+          <div class="dialog_block">
+            <div class="global_container_header">
+              <p class="global_container_header_text">Welcome to LOREM</p>
+              <p class="global_container_header_text2">
+                No Account ?
+                <a
+                  href="#"
+                  id="sign_up"
+                  class="global_container_header_text2_link"
+                >
+                  Sign up
+                </a>
+              </p>
+            </div>
+            <p class="global_container_header_text3">Sign in</p>
+
+            <div class="block_main">
+              <div class="information1_block">
+                <div class="email_address_block">
+                  <div class="email_address">
+                    <p class="email_address_text">
+                      Enter your username or email address
+                    </p>
+                  </div>
+                  <div class="email_address_input">
+                    <input
+                      id="email"
+                      class="input_email"
+                      placeholder="Username or email address"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="password_block">
+                  <div class="password">
+                    <p class="password_text">Enter your Password</p>
+                  </div>
+                  <div class="password_input">
+                    <input
+                      id="chekPassword"
+                      class="input_password"
+                      placeholder="Password"
+                      type="password"
+                    />
+                    <a
+                      href="#"
+                      class="password-control"
+                      onclick="return show_hide_password(this);"
+                    ></a>
+                  </div>
+                  <p id="error" class="password_error"></p>
+                </div>
+              </div>
+            </div>
+            <div class="forgot">
+              <p class="forgot_text">Forgot Password</p>
+            </div>
+            <div class="button_signIn">
+              <div class="button">
+                <button id="btn" class="button_text1">Sign in</button>
+              </div>
+              <div class="button2">
+                <button id="btn" class="button_text2">OR</button>
+              </div>
+
+              <div class="req_icons">
+                <div class="google">
+                  <img src="img/google.png" alt="" />
+                  <p class="google_text">Sign in with Google</p>
+                </div>
+
+                <div class="icon_two_block">
+                  <div class="facebook">
+                    <img src="img/Facebook.png" alt="" />
+                  </div>
+
+                  <div class="apple">
+                    <img src="img/apple.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Регистрация -->
+        <div id="regist" class="registration_hide">
+          <div class="registration">
+            <div class="registration_block">
+              <div class="registration_container_header">
+                <p class="registration_container_header_text">
+                  Welcome to LOREM
+                </p>
+                <p class="registration_container_header_text2">
+                  Have an Account ?
+                  <a
+                    href="#"
+                    id="sign_in"
+                    class="registration_container_header_text2_link"
+                  >
+                    Sign in
+                  </a>
+                </p>
+              </div>
+              <p class="registration_container_header_text3">Sign up</p>
+
+              <div class="information2_block">
+                <div class="email_address_block">
+                  <div class="email_address">
+                    <p class="email_address_text">
+                      Enter your username or email address
+                    </p>
+                  </div>
+                  <div class="email_address_input">
+                    <input
+                      id="email_reg"
+                      class="input_email"
+                      placeholder="Username or email address"
+                      type="text"
+                    />
+                  </div>
+                </div>
+
+                <div class="infotmation_data">
+                  <div class="user_name_block">
+                    <div class="user_name">
+                      <p class="user_name_text">User name</p>
+                    </div>
+                    <div class="user_name_input">
+                      <input
+                        id="name_reg"
+                        class="input_name"
+                        placeholder="User name"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="number_block">
+                    <div class="number">
+                      <p class="number_text">Contact Number</p>
+                    </div>
+                    <div class="number_input">
+                      <input
+                        id="contact_reg"
+                        class="input_number"
+                        placeholder="Contact Number"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="password_block">
+                  <div class="password">
+                    <p class="password_text">Enter your Password</p>
+                  </div>
+                  <div class="password_input">
+                    <input
+                      id="password_reg"
+                      class="input_password"
+                      placeholder="Password"
+                      type="password"
+                    />
+                    <a
+                      href="#"
+                      class="password-control"
+                      onclick="return show_hide_password2(this);"
+                    ></a>
+                  </div>
+                  <p id="error1" class="password_error"></p>
+                </div>
+              </div>
+
+              <div class="button3">
+                <button id="btn_reg" class="button_text3">Sign in</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="photo2" src="img/Saly-2.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Окно Пользователя -->
+
+    <div id="acc" class="acc_hide">
+      <div class="label_acc">Личный кабинет</div>
+      <div class="data_flex">
+        <div class="wrapper_data">
+          <div class="abbreviation">Имя пользователя:</div>
+          <div id="user_name" class="wrapper_data_left"></div>
+        </div>
+        <div class="wrapper_data">
+          <div class="abbreviation">Email:</div>
+          <div id="user_email" class="wrapper_data_left"></div>
+        </div>
+        <div class="wrapper_data">
+          <div class="abbreviation">Номер телефона:</div>
+          <div id="user_phone" class="wrapper_data_left"></div>
+        </div>
+      </div>
+      <div class="btn">
+        <button id="acc_btn_exit" class="btn_exit">Выйти</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

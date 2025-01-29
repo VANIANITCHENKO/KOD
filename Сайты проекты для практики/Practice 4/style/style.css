@@ -1,0 +1,574 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.header_inner {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 4%;
+}
+
+nav {
+    width: 55%;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.header_nav_menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: DIN;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.language {
+    background-image: url(../image/united-kingdom.png);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    right: 3%;
+}
+
+.header_button {
+    width: 17%;
+    height: 75%;
+    background: #5B6460;
+    position: relative;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_button>a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: DIN;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 10%;
+    background-image: url(../image/both-ood-iceland-houses-have-a-hot-tub-at-the-front-overlooking-the-spectacular-scenery-this-makes-the-experience-even-more-surreal-says-ceo-andreas-tiik\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro_inner {
+    width: 50%;
+    height: 23%;
+    position: relative;
+    left: 45%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.intro_inner_header {
+    margin: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 72px;
+}
+
+.intro_inner_text {
+    width: 50%;
+    height: 30%;
+    margin: 0;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.arrows {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+/* Cabins */
+.cabins {
+    width: 100%;
+    height: 100%;
+}
+
+.cabins_inner {
+    height: 60%;
+    display: flex;
+}
+
+.cabins_inner_block {
+    width: 35%;
+    height: 63%;
+    margin-top: 6%;
+    position: relative;
+    left: 8%;
+    flex-direction: column;
+}
+
+.cabins_inner_header {
+    margin: 0;
+    color: var(--forest, #5B6460);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.cabins_inner_text {
+    margin: 0;
+    position: relative;
+    top: 10%;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    animation-name: text;
+}
+
+
+
+.cabins_inner_link {
+    flex-direction: column;
+    position: relative;
+    top: 18%;
+    color: var(--forest, #5B6460);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.cabins_inner_photo {
+    margin-left: auto;
+    width: 50%;
+    height: 76%;
+}
+
+.photo {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+
+.photo_inner {
+    width: 31%;
+    height: 95%;
+}
+
+
+/* Rectangle */
+.rectangle {
+    width: 100%;
+    height: 70%;
+    padding-top: 9%;
+    display: flex;
+}
+
+.rectangle_one {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/Screen\ Shot\ 2021-02-26\ at\ 16.18\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle_one_photo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/Ellipse\ 5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rectangle_one_circle1 {
+    width: 155px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+.rectangle_one_circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 6% 7% 6%;
+    background-color: #fff;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+}
+
+.rectangle_one_text {
+    margin: 0;
+    color: var(--Gray-1, #333);
+    text-align: center;
+    font-family: DIN;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.rectangle_two {
+    width: 50%;
+    height: 100%;
+    background: #E9ECE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rectangle_two_block {
+    width: 68%;
+    height: 46%;
+    flex-direction: column;
+    position: relative;
+    right: 2%;
+}
+
+.rectangle_two_header {
+    margin: 0;
+    color: var(--forest, #5B6460);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.rectangle_two_text {
+    margin: 0;
+    position: relative;
+    top: 8%;
+    color: var(--Gray-1, #333);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.rectangle_two_link {
+    flex-direction: column;
+    position: relative;
+    top: 13%;
+    color: var(--forest, #5B6460);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* Facilities */
+.facilities {
+    background-color: var(--forest, #5B6460);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.facilities_header {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    position: relative;
+    bottom: 4%;
+    margin: 0;
+}
+
+.facilities_photo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    padding: 37px 1px 56px 13px;
+}
+
+.facilities_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* About */
+.about {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    display: flex;
+}
+
+.about_left {
+    background-image: url(../image/the-cabins-overlook-the-hekla-volcano-one-oolcanoes-it-is-s-the-gateway-to-hell\ 1.png);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_right {
+    background-image: url(../image/unique-panorama-glass-lodge-iceland8\ 1.png);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_centre {
+    position: absolute;
+    left: calc(50% - 65px);
+    top: calc(50% - 65px);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text {
+    margin: 0;
+    color: var(--Gray-1, #333);
+    text-align: center;
+    font-family: DIN;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 60%;
+    background: #5B6460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_block {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+
+.footer_block_information {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer_block_text {
+    margin: 0;
+    position: relative;
+    bottom: 12%;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.footer_email {
+    width: 100%;
+    height: 13%;
+    position: relative;
+    bottom: 6.5%;
+}
+
+.footer_email_text {
+    position: relative;
+    top: 35%;
+    margin: 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer_email_photo {
+    position: relative;
+    left: 90%;
+}
+
+.footer_text {
+    position: relative;
+    bottom: 5%;
+}
+
+.footer_information {
+    position: relative;
+    top: 10%;
+}
+
+.footer_text {
+    margin: 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer_information {
+    margin: 0;
+    color: var(--gray, #EFEFEF);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.footer_menu {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_block_menu {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    right: 7%;
+    bottom: 18%;
+    display: flex;
+    gap: 5%;
+}
+
+.footer_menu_text {
+    white-space: nowrap;
+    color: #FFF;
+    font-family: DIN;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.footer_photo {
+    position: relative;
+    bottom: 12%;
+    left: 6%;
+    display: flex;
+    gap: 17%;
+}
+
+.footer_photo_symbol {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,365 @@
+@media screen and (max-width: 400px) {
+    .photo1 {
+        display: none;
+    }
+
+    .photo2 {
+        display: none;
+    }
+
+    .name_logo {
+        position: absolute;
+        bottom: 92%;
+        right: 69%;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .global_container {
+        justify-content: center;
+    }
+
+    .dialog_visible {
+        width: 85%;
+        height: 85%;
+        position: none;
+        right: 0;
+        border-radius: 35px;
+    }
+
+    .global_container_header_text {
+        margin-bottom: 0;
+        margin-top: 1%;
+        width: 90%;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .global_container_header_text2 {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19.5px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .global_container_header_text3 {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 45px;
+    }
+
+    .block_main {
+        gap: 52px;
+    }
+
+    .req_icons {
+        gap: 10px;
+    }
+
+    .google {
+        gap: 10px;
+    }
+
+    .google>img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .google_text {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .facebook>img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .apple>img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .information1_block {
+        gap: 50px;
+    }
+
+    .email_address_text {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .input_email {
+        width: 80%;
+    }
+
+    .password_text {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .input_password {
+        width: 70%;
+        border: 1px solid #fff;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .forgot_text {
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: end;
+    }
+
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin-top: 45px;
+    }
+
+    .button_text {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 15px 50px;
+    }
+
+
+
+
+
+    .registration_visible {
+        justify-content: center;
+    }
+
+    .registration {
+        position: relative;
+        width: 85%;
+        height: 85%;
+        right: 0%;
+        border-radius: 35px;
+    }
+
+    .registration_container_header_text {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .registration_container_header_text2 {
+        width: 30%;
+    }
+
+    .registration_container_header_text3 {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: -25px;
+        margin-bottom: 55px;
+    }
+
+    .information2_block {
+        gap: 40px;
+    }
+
+    .email_address_text {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .infotmation_data {
+        gap: 10px;
+    }
+
+    .user_name_text {
+        margin: 0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .input_name {
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    .number_text {
+        margin: 0;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .input_number {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    .password_text {
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+
+
+
+    /* Диалоговое окно */
+    .acc_visible {
+        position: relative;
+        bottom: 70%;
+        left: 6%;
+        width: 90%;
+        height: 35%;
+        background-color: #e4e4e4c2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .data_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .label_acc {
+        width: 100%;
+        margin-bottom: 50px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .wrapper_data {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .wrapper_data_left {
+        margin-left: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center
+    }
+
+    .btn_exit {
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 10%;
+        background-color: red;
+        color: #fff;
+        box-shadow: 0px 4px 19px 0px #7793414D;
+        border-radius: 10px;
+        border: 1px solid #7793414D;
+    }
+}
