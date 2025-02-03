@@ -1,0 +1,87 @@
+h2 {
+    text-align: center;
+    width: 400px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+    width: 200px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+input {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(179, 255, 0);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+button:hover {
+    color: #ffff;
+    background-color: blue;
+}
+
+li:nth-child(odd) {
+    color: rgb(0, 255, 0);
+}
+
+li:nth-child(even) {
+    color: #072cfcec
+}
+
+input:focus {
+    border-color: rgb(255, 0, 0);
+}
+
+h2::first-line {
+    color: magenta;
+}
+
+li::first-letter {
+    color: orangered;
+}
+
+input::placeholder {
+    background-color: navy;
+    color: #ffff;
+}
+
+.block {
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    border-radius: 40px;
+    box-shadow: 30px 20px 15px 0px #573030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.block::before {
+    margin-left: 20px;
+    content: "Хорошего дня";
+}
+
+.block::after {
+    content: "Хорошего вечера";
+}
